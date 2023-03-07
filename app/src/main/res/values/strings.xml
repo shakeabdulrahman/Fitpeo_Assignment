@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fitpeo Assignment</string>
+    <string name="photo_cell">Photo Cell</string>
+    <string name="fitpeo">FITPEO</string>
+    <string name="nav_header">nav_header</string>
+    <string name="retry">Retry</string>
+    <string name="tap_image_for_detailed_view">Tap image for detailed view!</string>
+    <string name="version">Version 1.0</string>
+</resources>

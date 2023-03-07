@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navHeaderLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingHorizontal="@dimen/default_padding"
+        android:paddingTop="@dimen/dp_50"
+        android:paddingBottom="@dimen/default_padding"
+        android:orientation="horizontal"
+        android:background="@drawable/grey_background"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/logoTextView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:gravity="center"
+            android:background="@drawable/bg_circular_view"
+            android:contentDescription="@string/nav_header" />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/default_padding"
+                android:layout_marginStart="@dimen/default_padding"
+                android:text="@string/fitpeo"
+                android:fontFamily="@font/montserrat_bold"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                tools:ignore="RtlSymmetry" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+</LinearLayout>
